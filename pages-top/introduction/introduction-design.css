@@ -1,0 +1,49 @@
+.post-title{
+	width: 800px;
+	margin-top: 40px;
+}
+.post-title-text{
+	background-color: #363636;
+	color: #fdcb5c;
+	padding: 20px;
+	font-family: helvetica;
+    font-size: 28px;
+    letter-spacing: 1px;
+	font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+.author{
+	display: flex;
+	margin-top: 40px;
+
+	margin-left: 140px;
+}
+.image-size{
+	height: 150px;
+	width: 150px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	border-radius: 100px;
+}
+.author-image{
+	height: 150px;
+	transform: translateX(-20px);
+
+}
+.author-nickname{
+	font-size: 25px;
+	font-family: helvetica;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+.introduction{
+	width: 630px;
+	margin-top: 30px;
+	margin-left: 60px;
+	text-align: center;
+	font-size: 16px;
+	color: #363636;
+	line-height: 1.5;
+	font-family: verdana;
+}

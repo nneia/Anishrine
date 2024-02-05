@@ -1,0 +1,245 @@
+*{
+  padding: 0px;
+  margin:0px;
+}
+.episode-list-title{
+	background-color: #F7F8FC;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 20px;
+	border-bottom: 1.5px solid #d3d3d3
+}
+.list-header{
+	color: #363636;
+	font-family: Helvetica;
+	padding:10px;
+}
+.episode-list{
+	margin-left: 20px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+.episode{
+	font-family: helvetica;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+	color: #363636;
+}
+.ep-row-1{
+	margin-right: 10px;
+}
+.ep-row-2{
+	margin-right: 10px;
+}
+.ep-row-3{
+	margin-right: 10px;
+}
+.ep-row-4{
+	margin-right: 10px;
+}
+.seasons-box{
+	margin-left: 10px;
+	margin-top: 10px;
+	border-left: 3px solid #fdcb5c; 
+}
+.seasons{
+	font-size: 18px;
+	margin-left: 8px;
+}
+@media (min-width: 600px) {
+.episode-list-title{
+	background-color: #F7F8FC;
+	margin-right: 5px;
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 572px;
+	border-bottom: 1.5px solid #d3d3d3
+}
+.list-header{
+	color: #363636;
+	font-family: Helvetica;
+	padding:10px;
+}
+.episode-list{
+	margin-left: 35px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+.episode{
+	font-family: helvetica;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+	color: #363636;
+}
+.ep-row-1{
+	margin-right: 10px;
+}
+.ep-row-2{
+	margin-right: 10px;
+}
+.ep-row-3{
+	margin-right: 10px;
+}
+.ep-row-4{
+	margin-right: 10px;
+}
+.seasons-box{
+	margin-left: 20px;
+	margin-top: 10px;
+	border-left: 3px solid #fdcb5c; 
+}
+.seasons{
+	font-size: 18px;
+	margin-left: 10px;
+}
+}
+@media (min-width: 1024px) {
+
+.episode-list-title{
+	background-color: white;
+	margin-right: 5px;
+	margin-left: 40px;
+	margin-top: 20px;
+	border-bottom: 0px solid #d3d3d3
+}
+.list-header{
+	color: #363636;
+	font-family: Helvetica;
+	padding:10px;
+	width: 700px;
+	background-color: #F7F8FC;
+	border-bottom: 1.5px solid #d3d3d3
+}
+.episode-list{
+	margin-left: 60px;
+	margin-right: 15px;
+	margin-top: 10px;
+	display: flex;
+	width: 700px;
+}
+.episode{
+	font-family: helvetica;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+	color: #363636;
+}
+.ep-row-1{
+	margin-right: 10px;
+}
+.ep-row-2{
+	margin-right: 10px;
+}
+.ep-row-3{
+	margin-right: 10px;
+}
+.ep-row-4{
+	margin-right: 10px;
+}
+.seasons-box{
+	margin-left: 47px;
+	margin-top: 10px;
+	border-left: 3px solid #fdcb5c; 
+	width: 710px;
+}
+.seasons{
+	font-size: 18px;
+	margin-left: 8px;
+}
+}
+@media (min-width: 1200px) {
+
+.episode-list-title{
+	background-color: white;
+	margin-right: 5px;
+	margin-left: 60px;
+	margin-top: 20px;
+	border-bottom: 0px solid #d3d3d3
+}
+.list-header{
+	color: #363636;
+	font-family: Helvetica;
+	padding:10px;
+	width: 730px;
+	background-color: #F7F8FC;
+	border-bottom: 1.5px solid #d3d3d3
+}
+.episode-list{
+	margin-left: 80px;
+	margin-right: 15px;
+	margin-top: 20px;
+	display: flex;
+	width: 730px;
+}
+.episode{
+	font-family: helvetica;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+	color: #363636;
+}
+.ep-row-1{
+	margin-right: 10px;
+}
+.ep-row-2{
+	margin-right: 10px;
+}
+.ep-row-3{
+	margin-right: 10px;
+}
+.ep-row-4{
+	margin-right: 10px;
+}
+.seasons-box{
+	margin-left: 62px;
+	margin-top: 20px;
+	border-left: 3px solid #fdcb5c; 
+	width: 730px;
+}
+.seasons{
+	font-size: 18px;
+	margin-left: 8px;
+}
+}
+@media (min-width: 1500px) {
+
+.episode-list-title{
+	background-color: white;
+	margin-right: 5px;
+	margin-left: 0px;
+	margin-top: 20px;
+	border-bottom: 0px solid #d3d3d3
+}
+.list-header{
+	color: #363636;
+	font-family: Helvetica;
+	padding:10px;
+	width: 780px;
+	background-color: #F7F8FC;
+	border-bottom: 1.5px solid #d3d3d3
+}
+.seasons-box{
+	margin-left: 0px;
+	margin-top: 20px;
+	border-left: 0px solid #fdcb5c; 
+	width: 800px;
+}
+.seasons{
+	font-size: 18px;
+	margin-left: 10px;
+	margin-top: 18px;;
+	color: white;
+	font-weight: bold;
+}
+.season-image{
+	height: 55px;
+	width: 55px;
+	border-radius: 5px;
+}
+.season-container-1{
+	display: flex;
+	background-color: #363636;
+	margin-bottom: 2px;
+	border-radius: 2px;
+}
+
+
+}

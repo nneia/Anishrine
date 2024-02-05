@@ -1,0 +1,168 @@
+
+@import '../menu-new/menu-new-design.css';
+
+@import '../footer/footer-design.css';
+
+.container-open-playlist{
+	margin-left: 165px;
+	margin-right: 165px;
+	width: 1189px;
+	display: flex;
+	margin-top: 0px;
+}
+.playlist-description{
+	background-color: #fafafa;
+	padding: 30px;
+	padding-top: 50px;
+	padding-left: 35px;
+	padding-right: 35px;
+	width: 350px;
+	height: 700px;
+	
+
+}
+.playlist-container{
+	position: relative;
+
+}
+.box-shadow{
+	position: absolute;
+	width: 300px;
+	margin-left: 25px;
+	height: 40px;
+	bottom: 5px;
+	background-color: black;
+	opacity: 0.5;
+}
+.margin-area{
+    height: 80px;
+    width: 100%;
+}
+.play-btn{
+	position: absolute;
+	text-align: center;
+	color: white;
+	width: 300px;
+	margin-left: 25px;
+	height: 28px;
+	bottom: 5px;
+	font-family: helvetica;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.playlist-cover{
+	width: 300px;
+	height: 300px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.playlist-title{
+	margin-left: 25px;
+	font-family: helvetica;
+	margin-top: 10px;
+}
+.suffle-btn{
+	    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    background-color: #1C3380;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 2px;
+    margin-left: 25px;
+}
+.open-playlist-description{
+	font-size: 13px;
+	font-family: helvetica;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #1C3380;
+}
+.youtube-channel{
+	margin-top: 20px;
+	margin-left: 25px;
+	display: flex;
+}
+.channel-cover{
+	height: 40px;
+	width: 40px;
+	border-radius: 100px;
+}
+.channel-title{
+	font-family: helvetica;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+.channel-btn{
+	margin-left: 45px;
+	border-radius: 2px;
+	border: none;
+	padding: 8px;
+	height: 35px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-transform: uppercase;
+	transition: box-shadow 0.28s;
+	background-color: #ff0000;
+	color: white;
+	font-family: helvetica;
+	font-weight: bold;
+	margin-top: 2px;
+}
+.playlist-content{
+	margin-left: 0px;
+	height: 800px;
+	width: 770px;
+	margin-top: 30px;
+}
+.song-container{
+	display: flex;
+	padding: 20px;
+}
+.song-container:hover{
+	background-color: #fafafa;
+}
+.number{
+	margin-right: 25px;
+	font-family: helvetica;
+	margin-top: 25px;
+	margin-left: 40px;
+	color: #939393
+}
+.song-info{
+	margin-left: 25px;
+	margin-top: 15px;
+}
+.song-title{
+	font-family: helvetica;
+	font-size: 16px;
+	font-weight: bold;
+}
+.channel-author{
+	margin-top: 10px;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+.play-button{
+	    border: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 25px;
+    background-color: #1C3380;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 2px;
+    margin-left: 180px;
+    height: 25px;
+}

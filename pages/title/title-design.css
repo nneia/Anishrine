@@ -1,0 +1,598 @@
+*{
+  padding: 0px;
+  margin:0px;
+}
+.page-right{
+	display: none;
+}
+.line-it{
+	display: flex;
+}
+.post-title{
+	color: #363636;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+	
+	font-size: 34px;
+}
+.details{
+	display: flex;
+	margin-left: 20px;
+}
+
+.author-icon{
+	border-radius: 100px;
+	border:3px solid #363636;
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.description-block{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	background-color: #363636;
+	border-radius: 2px;
+	
+
+}
+.description{
+	margin-top: 10px;
+	font-family: helvetica;
+}
+.release-date{
+	font-weight: bold;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+.original-name{
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.next-episode{
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.post-image{
+	height: 280px;
+	padding-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+
+	margin-bottom: 20px;
+	border-radius: 2px;
+}
+.title-line{
+	height: 2px;
+	background-color: #D3D3D3;
+	border: none;
+	margin-top: 5px;
+}
+.summary-block{
+	
+
+}
+
+@media (min-width: 1500px) {
+.page-left{
+	width: 65%;
+	margin-left: 160px;
+	margin-right: 0px;
+
+}
+.description-block{
+	margin-left: 0px;
+	margin-right: 10px;
+	background-color: white;
+	display: flex;
+	margin-left: 165px;
+	margin-right: 50px;
+	width: 780px;
+	border-radius: 2px;
+	padding: 0;
+}
+.margins{
+	background-color: #f7f8fc;
+	padding-left: 165px;
+	padding-right: 165px;
+	width: 1189px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+
+}
+
+.post-title{
+	color: black;
+	padding: 20px;
+	padding-bottom: 10px;
+	margin:0;
+    font-family: arial;
+    font-size: 32px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.details{
+	display: flex;
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.author{
+	color: #939393;
+    font-style: normal;
+    font-family: sans-serif;
+    margin-right: 50px;
+    font-size:14px;
+    padding-left: 10px;
+
+}
+.author-icon{
+	border-radius: 100px;
+	border:3px solid #363636;
+	width: 35px;
+	height: 35px;
+	margin:0;
+}
+.date{
+	color: #939393;
+    font-size:14px;
+	font-family: sans-serif;
+}
+.info-bar{
+	display: flex;
+	margin-left: 165px;
+	list-style: none;
+	background-color: #1C3380;
+	color: white;
+	width: 780px;
+	margin-top: 30px;
+}
+.info-cell{
+	padding: 15px;
+	padding-left: 5px;
+	padding-right: 15px;
+	padding-top: 12px;
+	font-family: helvetica;
+	font-size: 16px;
+	margin-top: 5px;
+	border-right: 1px solid white;
+}
+.studio-icon{
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.rank{
+	padding: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+	font-family: helvetica;
+}
+
+.rank-position{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: helvetica;
+}
+.description{
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 440px;
+	font-family: Helvetica;
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: #F7F8FC;
+	border-bottom: 0px solid #D3D3D3;
+}
+.release-date{
+	font-weight: bold;
+	margin-left: 10px;
+	padding-top: 20px;
+}
+.original-name{
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.original-name-text{
+	margin-top: 10px;
+	margin-left: 10px;
+	color: #F2F2F2;
+	font-size: 15px;
+	font-family: Verdana;
+}
+.next-episode{
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.post-image{
+	height: 280px;
+	margin: 20px;
+	border-radius: 2px;
+	box-shadow: 0 0 5px 0px rgba(0,0,0,.5);
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding: 0;
+
+}
+.summary-header{
+	
+}
+.intro{
+	margin-top: 25px;
+	font-family: verdana;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: #363636;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.summary-block{
+	background-color: #F7F8FC;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-left: 0px;
+	padding: 12px;
+	font-family: corbel;
+	font-size: 18px;
+    color: #363636;
+    line-height: 1.5;
+    text-align: left;
+    font-style: italic;
+    width: 772px;
+    border-left: 3px solid #fdcb5c; 
+}
+.space{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.like-anime{
+	width: 180px;
+	margin: 20px;
+	margin-top: 0px;
+	display: flex;
+	box-shadow: 0 2px 6px 0 rgba(0,0,0,.1);
+	padding: 10px;
+	justify-content: center;
+}
+.like-anime:hover{
+	box-shadow: 0 0px 10px 0 rgba(0,0,0,.3);
+	transition: 850ms;
+	cursor: pointer;
+}
+.like{
+	margin-top: 3px;
+}
+.like-text{
+	color: black;
+	font-family: helvetica;
+	font-size: 14px;
+	margin-left: 10px;
+
+}
+.add-to-list{
+	
+	border:none;
+	background-color: white;
+	
+	color: black;
+	font-family: helvetica;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.add-list-block{
+	width: 180px;
+	padding: 10px;
+	box-shadow: 0 2px 6px 0 rgba(0,0,0,.1);
+	margin: 20px;
+	margin-top: 0;
+	display: flex;
+
+}
+.add-icon{
+	width: 14px;
+	height: 14px;
+	margin-top: 1px;
+	margin-left: 23px;
+}
+.add-list-block:hover{
+	box-shadow: 0 0px 10px 0 rgba(0,0,0,.3);
+	transition: 850ms;
+	cursor: pointer;
+}
+.like-post{
+	margin-left: 50px;
+	margin-top: 2px;
+}
+.like-post-text{
+	color: #939393;
+	font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+
+.summary-container{
+	width: 540px;
+	margin-top: 30px;
+	
+}
+.anime-title{
+	text-transform: uppercase;
+	font-family: helvetica;
+	text-align: center;
+}
+.alternative-title{
+	color: #939393;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: center;
+}
+.summary{
+	font-family: sans-serif;
+	padding: 20px;
+	line-height: 1.5;
+	font-size: 17px;
+}
+.tags{
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+}
+.tags-title{
+	font-family: helvetica;
+	font-size: 14px;
+	
+}
+.tags-text{
+	font-family: helvetica;
+    font-size: 14px;
+ 
+    padding-left: 30px;
+}
+.post-navigation{
+	list-style: none;
+	display: flex;
+	
+	   
+}
+.navigation-content{
+	font-family: helvetica;
+	font-size: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: black;
+	background-color: #f7f8fc;
+	padding: 10px;
+	
+}
+.navigation-menu{
+	background-color: #f7f8fc;
+	display: flex;
+	margin-left: 165px;
+	 box-shadow: 0 2px 6px 0 rgba(0,0,0,.1);
+	width: 760px;
+	margin-top: 20px;
+	
+	margin-bottom: 50px;
+}
+.navigation-content:hover{
+	color: #1C3380;
+	cursor: pointer;	
+}
+.navigation-text{
+	font-size: 14px;
+	font-family: helvetica;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: 15px;
+	color: white;
+	background-color: #1C3380;
+	padding: 10px;
+}
+.full-area{
+	display: flex;
+}
+.side-container{
+	width: 360px;
+	margin-top: 30px;
+	position: absolute;
+	right: 165px;
+}
+.side-ad{
+	background-color: #d3d3d3;
+	width: 360px;
+	height: 230px;
+}
+.discussion-on-anime{
+	margin-top: 30px;
+}
+.container-header{
+	display: flex;
+	margin-bottom: 20px;
+}
+.discussion-header{
+	font-family: helvetica;
+	font-size: 16px;
+	margin-right: 100px;
+	margin-left: 15px;
+}
+.view{
+	font-size: 12px;
+	font-family: sans-serif;
+	padding-top:5px;
+	color: #939393;
+	cursor: pointer;
+}
+.view:hover{
+	color: #363636;
+	transition: 850ms;
+
+}
+.discussion-comment{
+	box-shadow: 0 2px 6px 0 rgba(0,0,0,.1);
+	padding: 15px;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.discussion-user-container{
+	display: flex;
+	margin-bottom: 10px;
+}
+.discussion-user{
+	border-radius: 100%;
+	height: 25px;
+	margin-right: 10px;
+}
+.discussion-user-nickname{
+	font-family: helvetica;
+	font-size: 12px;
+	padding-top: 5px;
+}
+.discussion-comment-text{
+	font-size: 13px;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+}
+.comment-info{
+	display: flex;
+}
+.comment-date{
+	font-size: 12px;
+	font-family: serif;
+}
+.recomendations-container{
+	width: 360px;
+}
+.recomendations-header{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 15px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.recomendation-area{
+	width: 360px;
+	display: flex;
+
+}
+.recomendation{
+	width: 125px;
+	margin: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.anime-cover{
+	width: 125px;
+	height: 180px;
+	    box-shadow: 0 0 5px 0px rgba(0,0,0,.5);
+}
+.recomendation-anime-title{
+	text-align: center;
+	width: 125px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-family: helvetica;
+	font-size: 14px;
+
+}
+.agree-number{
+	text-align: center;
+	width: 125px;
+	font-family: helvetica;
+	font-size: 10px;
+}
+.agree{
+	text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #1C3380;
+    color: white;
+	width: 115px;
+    font-size: 12px;
+    font-family: helvetica;
+    border-radius: 2px;
+    box-shadow: 0 0px 5px 0 rgba(0,0,0,.3);
+    cursor: pointer;
+}
+.agree:hover{
+	box-shadow: 0 0px 10px 0 rgba(0,0,0,.5);
+	transition: 350ms;
+}
+.trailer-block{
+	margin-left: 165px;
+}
+.side-trending-container-element{
+	margin-top: 15px;
+	box-shadow: 0 2px 6px 0 rgba(0,0,0,.1);
+	padding: 15px;
+	padding-bottom: 10.2px!important;
+}
+.trending-header{
+	font-family: helvetica;
+    font-size: 16px;
+    margin-right: 100px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.post-area{
+margin-left: 15px;
+}
+.interactions{
+	display: flex;
+	margin-top: 22px;
+}
+.likes-icon{
+	margin-left: 10px;
+}
+.likes-number{
+	font-family: helvetica;
+    font-size: 12px;
+    margin-left: 3px;
+    margin-right: 0px;
+    color: #363636;
+}
+.comments-icon{
+	width: 15px;
+    height: 15px;
+    margin-left: 10px;
+
+}
+.comments-number{
+	font-family: helvetica;
+    font-size: 12px;
+    margin-left: 3px;
+    margin-right: 15px;
+    color: #363636;
+}
+.time-icon{
+	height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+.post-time{
+	font-family: helvetica;
+    font-size: 12px;
+    color: #363636;
+}
+
+
+}

@@ -1,0 +1,20 @@
+@import '../header/header-design.css';
+@import '../menu/menu-design.css';
+@import 'introduction/introduction-design.css';
+@import 'anime-position/anime-postion-design.css';
+@import 'right-side/right-side-pages-top-design.css';
+
+@import '../footer/footer-design.css';
+
+.left{
+	margin-left: 160px;
+}
+.right{
+	margin-left: 50px;
+}
+.sides{
+	display: flex;
+}
+a{
+	text-decoration: none;
+}

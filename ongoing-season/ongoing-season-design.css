@@ -1,0 +1,513 @@
+
+.anime-info{
+	width: 125px;
+	background-color: white;
+	height: 25px;
+}
+.ongoing-season-header{
+	
+
+}
+.ongoing-anime-container{
+	display: flex;
+}
+.ongoing-anime-img{
+	height: 90px;
+	padding: 10px;
+	padding-right: 0;
+	padding-bottom: 0;
+	
+}
+.text-part{
+	background-color: #363636;
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	height: 70px;
+	border-radius: 2px;
+}
+.ongoing-anime-title{
+	color: #fdcb5c;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 14px;
+
+}
+
+.ongoing-anime-description{
+	color: white;
+	font-family: helvetica;
+	font-size: 12px;
+	font-style: italic;
+	margin-top: 5px;
+}
+
+.{}
+.rating{
+	display: none;
+}
+.read-review{
+	display: none;
+}
+
+
+
+@media (min-width: 600px) {
+
+	.ongoing-season-header{
+	
+}
+.ongoing-anime-container{
+	display: flex;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+.ongoing-anime-img{
+	height: 120px;
+	padding: 10px;
+	padding-right: 0;
+	padding-bottom: 0;
+	
+}
+.text-part{
+	background-color: #363636;
+	width: 100%;
+	padding: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	height: 80px;
+	border-radius: 2px;
+}
+.ongoing-anime-title{
+	color: #fdcb5c;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 19px;
+}
+.ongoing-anime-description{
+	color: white;
+	font-family: helvetica;
+	font-size: 14px;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.{}
+.rating{
+	display: none;
+}
+.read-review{
+	display: none;
+}
+}
+
+@media (min-width: 1500px) {
+.main-page-left{    
+	width: 760px;
+
+}
+.h-zero{
+	height: 0px;
+	position: absolute;
+}
+.ongoing-season-header{
+text-align: center;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    margin-left: 165px;
+    margin-right: 165px;
+    width: 1189px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.background-two{
+	background-color: #F7F8FC;
+	margin-top: 20px;
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 20px;	
+    margin-left: 140px;
+    margin-right: 160px;
+    width: 830px;
+    display: flex;
+    position: relative;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.1);
+}
+.ongoing-anime-container{
+	display: block;
+	background-color: #363636;
+	padding:15px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	border-radius: 2px;
+	margin-bottom: 5px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.text-part{
+	padding: 0;
+}
+.ongoing-anime-img{
+	height: 220px;
+	width: 146px;
+	padding: 0;
+	border-radius: 2px 2px 0px 0px;
+	transition: 300ms;
+	
+}
+.ongoing-anime-img:hover{
+	
+}
+
+.ongoing-anime-title{
+	color: #801515;
+	margin-left: 0px;
+	padding: 10px;
+	font: 600 14px Karla,sans-serif;
+	width: 126px;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: white;
+	
+}
+.ongoing-anime-title:hover{
+	color: #801515;
+    transition: 300ms;
+}
+.ongoing-anime-description{
+	color: #d3d3d3;
+	font-size: 15px;
+	font-style: italic;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 340px;
+}
+.watch-opinion{
+	margin-top: 10px;
+	display: flex;
+}
+.read-review{
+	margin-left: 20px;
+	width: 100px;
+	font-size: 17px;
+	color: #fdcb5c;
+	display: block;
+}
+.rating{
+	margin-left: 300px;
+	margin-top: 0px;
+	font-size: 17px;
+	color: #fdcb5c;
+	font-family: helvetica;
+	display: block;
+}
+.main-page-right{
+	width: 370px;
+    margin-right: 185px;
+    display: block;
+}
+.display-ongoing-block{
+	display: flex;
+}
+.ongoing-season-poster{
+	margin-top: 40px;
+}
+.thanks{
+	width: 360px;
+	height: 30px;
+	margin-top: 20px;
+	text-align: center;
+	background-color: white;
+	color:  #324A9B;
+	padding-top: 10px;
+	border:2px solid #324A9B;
+	border-radius: 3px;
+}
+.open-more{
+	border: none;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    background-color: #1C3380;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 2px;
+    width: 125px;
+}
+.post-preview{
+	position: absolute;
+	background-color: white;
+	left: 190px;
+	top: 15px;
+	padding: 15px;
+	width: 450px;
+	padding-bottom: 20px;
+	box-shadow: 0 2px 6px 0 rgba(0,0,0,.1);
+	transition: 0ms;
+	visibility: hidden;
+	z-index: 2;
+	border: 1.5px solid #d3d3d3;
+}
+.anime-box{
+	position: relative;
+	width: 146px;
+	margin-right: 25px;
+	padding-bottom: 8px;
+	box-shadow: 0 0 8px -2px rgba(0,0,0,.4);	
+	border-radius: 5px 5px 5px 5px;
+	border-bottom: 2px solid #ddd;
+}
+.anime-box:hover{
+	box-shadow: 0 0 5px 0px rgba(0,0,0,.5);
+	transition: 0.3s;
+}
+.preview-title{
+	width: 450px;
+	font-family: helvetica;
+	font-size: 16px;
+	text-align: left;
+	color: #1C3380;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.anime-box:hover .post-preview {
+	visibility: visible;
+
+}
+.post-preview:after{
+	content: '';
+ 	width: 15px;
+ 	height: 15px;
+ 	position: absolute;
+ 	background-color:  white;
+ 	top: 15px;
+ 	left: -15px;
+ 	z-index: 1;
+ 	border-bottom: 1.5px solid #d3d3d3;
+	border-left: 1.5px solid #d3d3d3;
+ 	transform: rotate(45deg) translateX(50%);
+ 	transition: 0s;
+}
+.plot-preview{
+	font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 5px;
+    padding: 10px;
+}
+.info-preview{
+	display: flex;
+	background-color: #1C3380;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.preview-icon{
+	height: 20px;
+	width: 20px;
+	padding-left: 2px;
+	margin-top: 6px;
+	margin-left: 5px;
+}
+.preview-cell{
+	    font-size: 11px;
+    font-family: sans-serif;
+    list-style: none;
+    color: white;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0;
+}
+.tags-preview{
+	font-family: helvetica;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.add-to-list{
+	font-family: helvetica;
+	font-size: 13px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.add-icon{
+	width: 12px;
+	height: 12px;
+	margin-top: 1px;
+	cursor: pointer;
+}
+.add-box{
+	display: flex;
+	margin-top: 5px;
+	margin-bottom:  5px;
+	margin-left: 5px;
+	width: 149px;
+
+}
+.title-color{
+	color: black;
+	width: 154px;
+	text-decoration: none;
+}
+.title-color:hover{
+	
+}
+.anime-box:hover .ongoing-anime-title{
+	color: #801515;
+    transition: 300ms;
+}
+.zoom-in-anime{
+	
+	height: 220px;
+	width: 146px;
+	z-index: 10;
+	overflow: hidden;
+	border-radius: 2px 2px 0px 0px;
+	
+}
+.anime-box:hover .ongoing-anime-img{
+	transform: scale(1.1);
+	transition: 300ms;
+}
+.anime-box:hover .zoom-in-anime{
+	
+}
+.anime-rating{
+	height: 35px;
+	width: 146px;
+	display: flex;
+	border-top: 1px solid #d3d3d3;
+}
+.overflow{
+	overflow:hidden;
+	position: absolute;
+	height: 220px;
+	width: 146px;
+	top:0;
+}
+.pop-up{
+	position: absolute;
+	top: 215px;
+	width: 136px;
+	height: 50px;
+	left: 0px;
+	padding: 5px;
+	background-color: #363636;
+	opacity: 0;
+	z-index: -1;
+}
+.content{
+	position: absolute;
+	top: 240px;
+	left: 8px;
+	width: 154px;
+	z-index: 2;
+	opacity: 0;
+
+}
+.anime-box:hover .pop-up{
+	top: 180px;
+	opacity: 0.9;
+	transition: 500ms;
+	z-index: 1
+
+}
+.anime-box:hover .content{
+	top: 190px;
+	opacity: 1;
+	transition: 500ms;
+	z-index: 3;
+}
+.character-rating{
+	color: white;
+	font:  14px Karla,sans-serif;	
+	margin-bottom: 3px;
+}
+.anime-rank{
+	color: #1C3380;
+	font: 550 13px Karla,sans-serif;	
+	margin-bottom: 3px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 15px;
+	background-color: #ddd;
+	padding: 2px;
+	padding-left: 4px;
+	padding-left: 4px;
+	border-radius: 2px;
+}
+.like-character{
+	background-color: none;
+	text-align: center;
+	color: white;
+	font:  550 12px Karla,sans-serif;
+	padding: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 2px;
+	width: 120px;
+	margin-bottom: 5px;
+
+}
+.like-character:hover{
+	background-color: #801515;
+	color: white;
+	transition: 300ms;
+	cursor: pointer;
+}
+.rating-controller{
+	height: 18px;
+	margin-top: 11px;
+	
+}
+.rating-number{
+	font: 550 13px Karla,sans-serif;
+	margin-top: 13px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #939393;
+}
+.ongoing-description{
+	position: absolute;
+	top:60px;
+	display: flex;
+}
+.message{
+	font-family: helvetica;
+	font-size: 14px;
+	margin-right: 10px;
+	padding-top: 2px;
+}
+.select-ongoing{
+	outline: none;
+	padding-left: 6px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-family: helvetica;
+	font-size: 13px;
+	color: #393939;
+	background-color: white;
+	border-radius: 3px;
+}
+.total{
+	margin-left: 500px;
+	cursor: pointer;
+	border-radius: 3px;
+font-family: helvetica;
+font-size: 13px;
+	color: #1C3380;
+	margin-top: 10px;
+}
+.box-title{
+	position: absolute;
+	top: 20px;
+	font-size: 24px;
+}
+}	

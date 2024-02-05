@@ -1,0 +1,28 @@
+
+@import '../menu-new/menu-new-design.css';
+@import 'right-side/right-side-design.css';
+@import '../pages/illustrsations/illustrations-design.css';
+@import '../pages/title/title-design.css';
+@import '../pages/introduction/intro-design.css';
+@import '../pages/plot/plot-design.css';
+@import '../pages/trailer/trailer-design.css';
+@import '../pages/mycomment/comment-design.css';
+@import '../pages/highlights/highlights-design.css';
+
+
+@import '../pages/conclusion/conclusion-design.css';
+@import '../pages/gallery/gallery-design.css';
+@import '../pages/post-comments/comments-design.css';
+@import '../pages/related posts/related-posts.css';
+@import '../pages/social-block/social-block-design.css';
+
+@import '../pages/right-side/right-side-design.css';
+
+@import '../footer/footer-design.css';
+
+a{
+	text-decoration: none;
+}
+*{
+	-webkit-font-smoothing: antialiased;
+}

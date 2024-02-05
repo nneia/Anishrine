@@ -1,0 +1,69 @@
+.comment-background{
+	background-color: white;
+
+	margin-top: 30px;
+	box-shadow: 0 2px 6px 0 rgba(0,0,0,.1);
+	width: 780px;
+	margin-left: 165px;
+	padding-bottom: 20px;
+}
+.user{
+	padding: 0px;
+	padding-top: 8px;
+	margin-bottom: 15px;
+	display: flex;
+}
+.user-image{
+	height: 35px;
+	border-radius: 100%;
+	margin-left: 0px;
+}
+.username{
+
+	font-family: helvetica;
+    font-size: 15px;
+    padding-top: 8px;
+    margin-left: 10px;
+}
+.post-comment{
+	
+	width: 740px;
+	font-size: 14px;
+    font-family: sans-serif;
+	color: #363636;
+	margin-bottom:  10px;
+}
+.comment-container{
+	padding: 20px;
+	padding-top: 12px;
+
+	width: 740px;
+}
+.time{
+	margin-bottom: 3px;
+	    font-family: helvetica;
+    font-size: 13px;
+    color: #363636;
+}
+.custom-image{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.interaction{
+	display: flex;
+}
+.reply{
+	margin-right: 20px;
+	margin-bottom: 3px;
+	font-family: helvetica;
+    font-size: 13px;
+    color: #363636;
+    cursor: pointer;
+}
+.reply-icon{
+	width: 15px;
+	height: 15px;
+	margin-right: 8px;
+	margin-left: 5px;
+	cursor: pointer;
+}
