@@ -1,0 +1,88 @@
+
+.social-block{
+	margin-top: 40px;
+	width: 360px;
+}
+.share{
+	background-color: #363636;
+	padding: 20px;
+	color: white;
+	height: 100px;
+	width: 320px;
+}
+.social-media{
+	margin-left: 55px;
+	margin-right: 55px;
+}
+.icon{
+	height: 50px;
+	width: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.anime-rev-ad{
+	margin-top: 30px;
+	width: 360px;
+	text-align: center;	
+}
+.slogan-rev{
+	background-color: #F7F8FC;
+    border: 2px solid #f2f2f2;
+    padding: 20px;
+    color: #363636;
+    font-family: helvetica;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+.reference{
+	background-color: #363636;
+	color: #fdcb5c!important;
+	font-size: 15px;
+	padding: 20px;
+	letter-spacing: 1px;
+	font-family: verdana;
+	margin-top: 0;
+}
+.poll{
+	background-color: #363636;
+	margin-top: 50px;
+	padding: 10px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+.poll-img{
+	width: 300px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.poll-question{
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 5px;
+}
+.share-text{
+ position: absolute;
+ bottom: 80px;
+left: 50px;
+font-family: helvetica;
+font-size: 19px;
+letter-spacing: 1px;
+font-weight: bold;
+font-style: italic;
+transform: rotate(-5.0deg);
+}
+.share-container{
+ position: relative;
+}
+.share-banner{
+	border-top: 0px solid #363636;
+	border-radius: 2px;
+}
+.banner{
+	border-radius: 2px;
+}

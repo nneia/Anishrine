@@ -1,0 +1,14 @@
+
+@import '../menu-new/menu-new-design.css';
+@import 'profile-overview/overview-desing.css';
+@import 'profile-statistics/statistics-design.css';
+@import '../footer/footer-design.css';
+
+
+a{
+	text-decoration: none;
+}
+.margin-area{
+    height: 80px;
+    width: 100%;
+}

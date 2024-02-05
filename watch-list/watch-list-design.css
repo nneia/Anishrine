@@ -1,0 +1,25 @@
+
+@import '../menu-new/menu-new-design.css';
+@import 'introduction/introduction-design.css';
+@import 'watch-list/watch-design.css';
+@import 'r-side/r-side-design.css';
+
+@import '../footer/footer-design.css';
+
+a{
+	text-decoration: none;
+}
+.margin-area{
+    height: 80px;
+    width: 100%;
+}
+.sides{
+	display: flex;
+}
+.left{
+	margin-left: 165px;
+	width: 760px;
+}
+.right{
+	margin-left: 50px;
+}

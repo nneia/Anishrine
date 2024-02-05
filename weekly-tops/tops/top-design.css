@@ -1,0 +1,250 @@
+.container-left-two{
+margin-left: 0px;
+margin-top: 50px;
+width: 100%;
+margin-bottom: 300px;
+}
+.top-header{
+	margin-bottom: 5px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #363636;
+	color: white;
+	text-align: center;
+}
+.top-element{
+	display: flex;
+	padding: 10px;
+}
+.top-img{
+	height: 70px;
+	border-radius: 3px;
+}
+.top-text{
+	width: 225px;
+	color: #fdcb5c;
+	font-weight: bold;
+	font-family: helvetica;
+	font-size: 14px;
+	letter-spacing: 0.5;
+	border-radius: 3px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+.top-text-block{
+	background-color: #363636;
+	width: 100%;
+}
+.top-description{
+	color: white;
+	font-family: verdana;
+	font-size: 11px;
+	font-style: italic;
+	margin-top: 7px;
+	margin-left: 15px;
+}
+@media (min-width: 600px) {
+.container-left-two{
+	margin-left: 0px;
+	margin-top: 50px;
+	width: 100%;
+	margin-bottom: 300px;
+}
+.top-header{
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 17px;
+	background-color: #363636;
+	color: white;
+	text-align: center;
+}
+.top-element{
+	display: flex;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.top-img{
+	height: 100px;
+	border-radius: 3px;
+}
+.top-text{
+	width: 550px;
+	color: #fdcb5c;
+	font-weight: bold;
+	font-family: helvetica;
+	font-size: 18px;
+	letter-spacing: 0.5;
+	border-radius: 3px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.top-text-block{
+	background-color: #363636;
+	width: 100%;
+}
+.top-description{
+	color: white;
+	font-family: verdana;
+	font-size: 14px;
+	font-style: italic;
+	margin-top: 10px;
+	margin-left: 20px;
+}	
+}
+@media (min-width: 1024px) {
+.container-left-two{
+	margin-left: 15px;
+	margin-top: 50px;
+	width: 653px;
+	margin-bottom: 300px;
+}
+.top-header{
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 17px;
+	background-color: #363636;
+	color: white;
+	text-align: center;
+}
+.top-element{
+	display: flex;
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.top-img{
+	height: 100px;
+	border-radius: 3px;
+}
+.top-text{
+	width: 490px;
+	color: #fdcb5c;
+	font-weight: bold;
+	font-family: helvetica;
+	font-size: 18px;
+	letter-spacing: 0.5;
+	border-radius: 3px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.top-text-block{
+	background-color: #363636;
+	width: 100%;
+}
+.top-description{
+	color: white;
+	font-family: verdana;
+	font-size: 14px;
+	font-style: italic;
+	margin-top: 10px;
+	margin-left: 20px;
+}	
+}
+@media (min-width: 1200px) {
+.container-left-two{
+	margin-left: 90px;
+	margin-top: 50px;
+	width: 653px;
+	margin-bottom: 300px;
+}
+.top-header{
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 17px;
+	background-color: #363636;
+	color: white;
+	text-align: center;
+}
+.top-element{
+	display: flex;
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.top-img{
+	height: 100px;
+	border-radius: 3px;
+}
+.top-text{
+	width: 490px;
+	color: #fdcb5c;
+	font-weight: bold;
+	font-family: helvetica;
+	font-size: 18px;
+	letter-spacing: 0.5;
+	border-radius: 3px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.top-text-block{
+	background-color: #363636;
+	width: 100%;
+}
+.top-description{
+	color: white;
+	font-family: verdana;
+	font-size: 14px;
+	font-style: italic;
+	margin-top: 10px;
+	margin-left: 20px;
+}	
+}
+@media (min-width: 1500px) {
+.container-left-two{
+margin-left: 160px;
+margin-top: 50px;
+width: 770px;
+}
+.top-header{
+	margin-bottom: 30px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+}
+.top-element{
+	display: flex;
+}
+.top-img{
+	height: 100px;
+	border-radius: 3px;
+}
+.top-text{
+	width: 590px;
+	color: #fdcb5c;
+	font-weight: bold;
+	font-family: helvetica;
+	font-size: 20px;
+	letter-spacing: 0.5;
+	border-radius: 3px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.top-text-block{
+	background-color: #363636;
+}
+.top-description{
+	color: white;
+	font-family: verdana;
+	font-size: 13.5px;
+	font-style: italic;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+}

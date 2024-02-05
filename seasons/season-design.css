@@ -1,0 +1,114 @@
+
+@import '../menu-new/menu-new-design.css';
+@import 'anime-season/anime-season-design.css';
+@import 'season-right-side/season-r-side-design.css';
+@import '../footer/footer-design.css';
+
+
+html{
+	margin: 0px;
+}
+
+
+.margin-area{
+    height: 80px;
+    width: 100%;
+}
+*{
+  padding: 0px;
+  margin:0px;
+}
+body{
+	width: 100%;
+}
+.banner{
+	width: 100%;
+	position: relative;
+	background-color: #f7f8fc;
+	margin: 0;
+	padding: 0;
+}
+
+.banner-img{
+	border-top: 0;
+	width: 1519px;
+}
+
+
+.container-season{
+	display: flex;
+}
+.left{
+	width: 100%;
+
+}
+.right{
+	width: 360px;
+	margin-top: 50px;
+}
+.ad-container{
+	width: 600px;
+	height: 100px;
+	border: 1px solid #e7e1d3;
+	margin-left: 450px;
+	margin-right: 450px;
+	margin-top: 40px;
+}
+.season-checkbox{
+
+	height: 130px;
+	background-color: #f7f8fc;
+	position: absolute;
+	top: 190px;
+	left: 140px;
+	padding: 20px;
+	box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+}
+.shade-text{
+	font-family: 'Hind Madurai', sans-serif;
+	color: black;
+	margin-top: 10px;
+	font-size: 32px;
+	width: 500px;
+}
+.season-subheader{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 14px;
+	margin-top: 10px;
+	color: #595959;
+	width: 500px;
+}
+.season-stats{
+	margin-top: 10px;
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 14px;
+	background-color: #418181;
+	color: white;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 135px;
+}
+.season-stats-box{
+	display: flex;
+}
+.notice{
+	color: #595959;
+	margin-left: 10px;
+	margin-top: 16px;
+}
+.season-button{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 700px;
+	top: 340px;
+	z-index: 20;
+	padding: 10px;
+	border-radius: 2px;
+}
+.season-button:hover{
+	background-color: #f7f8fc;
+	transition: 300ms;
+	cursor: pointer;
+}

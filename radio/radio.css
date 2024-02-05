@@ -1,0 +1,10 @@
+
+@import '../menu-new/menu-new-design.css';
+@import 'head/radio-head-design.css';
+@import 'playlists/playlists.css';
+
+@import '../footer/footer-design.css';
+.margin-area{
+    height: 80px;
+    width: 100%;
+}

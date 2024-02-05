@@ -1,0 +1,864 @@
+
+@import '../menu-new/menu-new-design.css';
+
+@import '../footer/footer-design.css';
+
+
+html{
+	margin: 0px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.margin-area{
+    height: 80px;
+    width: 100%;
+}
+.welcome-container{
+    width: 1519px;
+    
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+     
+}
+.welcome-subcontainer{
+    width: 1239px;
+    padding-left: 140px;
+    padding-right: 140px;
+    background-color: #f7f8fc;
+    height: 50px;
+    box-shadow: 0 0 2px 0px rgba(0,0,0,.4);  
+}
+.welcome-header{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 80px;
+    margin-left: 170px;
+    color: white;
+    text-shadow: 0 0 2px 0px rgba(0,0,0,.4);     
+}
+.welcome-subheader{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 10px; 
+    margin-left: 170px;
+    color: white;
+    text-shadow: 0 0 2px 0px rgba(0,0,0,.4);    
+}
+.welcome-background{
+    position: absolute;
+    width: 1519px;  
+    z-index: -1;
+}
+*{
+  padding: 0px;
+  margin:0px;
+}
+
+
+.body-one{
+    display: flex;
+    padding-left: 140px;
+    padding-right: 140px;
+    width: 1239px;
+    padding-top: 50px;
+    background-color: #f7f8fc;
+
+}
+.container-left{
+    position: relative;
+}
+
+.hottest-anime-container{
+    box-sizing: border-box;
+    width: 800px;
+    
+    background-color: #f7f8fc;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.popular-anime-selector{
+    color: #418181;
+    outline: none;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+    padding: 0;
+    position: absolute;
+    left: 17px;
+}
+.see-all-anime{
+    left:710px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: helvetica;
+    font-size: 13px;
+    color: #595959;
+    margin-top: 10px;
+    position: absolute;
+    top: 22px;
+}
+.see-all-anime:hover{
+    color: #418181;
+}
+.scroll-button {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 795px;
+    top: 180px;
+    z-index: 20;
+    padding: 10px;
+    border-radius: 2px;
+}
+.scroll-button:hover{
+    background-color: white;
+        box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.hottest-anime-header{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 24px;
+    font-weight: 550;
+    margin-top: 25px;
+}
+.hottest-anime-block{
+    display: flex;
+    margin-top: 16px;
+}
+.hotest-anime-box{
+    margin-top: 0px;
+    cursor: pointer;
+    border-radius: 2px;
+    position: relative;
+    margin-right: 24px;
+
+}
+.zoom-in {
+    height: 200px;
+    width: 132.55px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 2px 2px 0px 0px;
+    box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+}
+.rating-number {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: 100;
+    background-color: #418181;
+    border-radius: 4px;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.anime-cover {
+    height: 200px;
+    width: 132.55px;
+    transition: 300ms;
+}
+.anime-title{
+
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Hind Madurai', sans-serif;
+    width: 132.55px;
+    text-align: left;
+    padding: 6px;
+    background-color: white;
+    border-left: 1px solid rgba(0,0,0,.1);
+    border-right: 1px solid rgba(0,0,0,.1);
+
+}
+.rater {
+    display: flex;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.1);
+}
+.rate {
+    height: 18px;
+    width: 18px;
+    padding: 6px;
+    background-color: #ddd;
+}
+.votes-number {
+    width: 70px;
+    font-family: 'Hind Madurai', sans-serif;
+    color: #545454;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 7px;
+}
+.hotest-anime-box:hover .anime-cover {
+    transform: scale(1.1);
+}
+.hotest-anime-box:hover {
+    box-shadow: 0 0 2px 0px rgba(0,0,0,2);
+}
+.hotest-anime-box:hover .zoom-in {
+    box-shadow: 0 0 0px 0px rgba(0,0,0,.4);
+}
+.anime-title:hover {
+    color: #545454;
+}
+.rate:hover {
+    background-color: #ff9600;
+}
+.rater:hover .votes-number {
+    color: #418181;
+}
+
+
+
+
+
+.quick-container{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+.quick-list{
+    box-sizing: border-box;
+    width: 390px;
+    background-color: white;
+    box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+    margin-right: 20px;
+    padding: 20px;
+}
+.quick-container-header{
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.chosen-box{
+    display: flex;
+}
+.anime-chosen-img{
+    height: 160px;
+    margin-right: 15px;
+        border-radius: 2px 2px 0px 0px;
+    box-shadow: 0 0 2px 0px rgba(0,0,0,.4)
+}
+.choice-header{
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: 'Hind Madurai', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+.quick-list:hover .choice-header {
+    color: #418181;
+    transition: 150ms;
+}
+.quick-list:hover .choice-subheader {
+    color: #418181;
+    transition: 150ms;
+}
+.choice-subheader{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #545454;
+    cursor: pointer;
+}
+.scroll-button-choice {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 795px;
+    top: 127.5px;
+    z-index: 20;
+    padding: 10px;
+    border-radius: 2px;
+}
+.scroll-button-choice:hover {
+    background-color: #f7f8fc;
+        box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.recomendation-container-empty{
+    width: 800px;
+    margin-top: 50px;
+    background-color: #f7f8fc;
+    height: 300px;
+}
+.emty-image{
+    position: absolute;
+    z-index: 1;
+    opacity: 0.99;
+}
+.empty-header{
+    z-index: 2;
+    position: relative;
+    font-size: 24px;
+    font-family: 'Hind Madurai', sans-serif;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.empty-text{
+    padding-top: 10px;
+    padding-left: 50px;
+    z-index: 2;
+    position: relative;
+}
+.login{
+    cursor: pointer;
+}
+.recomendation-container{
+    box-sizing: border-box;
+    width: 800px;
+    box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+    background-color: #f7f8fc;
+    margin-top: 40px;
+    padding: 20px;
+    position: relative;
+}
+.recomendation-header{
+    font-size: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
+}
+.recomendation-statement{
+    font-size: 14px;
+    font-family: 'Hind Madurai', sans-serif;
+    margin-top: 5px;
+    color: #595959;
+}
+.recomendation-box{
+    margin-top: 10px;
+    display: flex;
+}
+.recomendation-intial{
+    margin-left: 0px;
+    width: 119px;
+    margin-right: 0px;
+}
+.recomendation-intial:hover {
+    border: 1px solid rgb(169, 169, 169);
+ }
+.recomendation-anime{
+    margin-left: 0px;
+    width: 119px;
+    margin-right: 15px;
+}
+.recomendation-anime:hover {
+    border: 1px solid rgb(169, 169, 169);
+ }
+.intital-anime-img{
+    height: 180px;
+}
+.zoom-in-initial {
+    height: 180px;
+    width: 119px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 2px 2px 0px 0px;
+    box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+}
+.anime-title-initial{
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    font-family: 'Hind Madurai', sans-serif;
+    width: 119px;
+    text-align: left;
+    padding: 6px;
+    background-color: white;
+    border-left: 1px solid rgba(0,0,0,.1);
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+.anime-title-initial:hover {
+    color: #418181;
+    cursor: pointer;
+}
+.agree-box{
+    margin-left: 40px;
+}
+.agree-header{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.agree-switch-box{
+    display: flex;
+    margin-top: 30px;
+}
+.agree-switch{
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    margin-right: 25px;
+}
+.agree-switch:hover{
+    background-color: white;
+    box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+    transition: 300ms;
+    cursor: pointer;
+}
+.recomendation-anime-box{
+    margin-top: 0px;
+    cursor: pointer;
+    border-radius: 2px;
+    position: relative;
+    margin-right: 24px;
+
+}
+.recomendation-anime-box:hover .anime-cover {
+    transform: scale(1.1);
+}
+.recomendation-anime-box:hover {
+    border: 1px solid rgb(169, 169, 169);
+}
+.open-button{
+    position: absolute;
+    right: 20px;
+    top:20px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #ff9600;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 1px 2px 0px rgba(0,0,0,.4);
+}
+.open-button:hover{
+    box-shadow: 0 1px 4px 0px rgba(0,0,0,.4);
+    transition: 350ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.latest-updates-container{
+    width: 800px;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 30px;
+    box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+    background-color: white;
+}
+.latest-update-header{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.anime-update-box{
+    padding: 20px;
+    padding-bottom: 43px;
+    background-color: #f7f8fc;
+    display: flex;
+    position: relative;
+}
+.anime-update-box-e{
+    padding: 20px;
+    padding-bottom: 43px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+.anime-update-cover{
+    height: 160px;
+    width: 106.04px;
+    border: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 0;
+}
+.anime-update-information{
+    padding: 10px;
+    padding-bottom: 0;
+    margin-left: 118px;
+}
+.anime-update-title{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.anime-author{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    color: #545454;
+}
+.summary{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+.status{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.release-time{
+    position: absolute;
+    right: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    color: #545454;
+}
+.anime-update{
+    position: absolute;
+
+}
+.rater-update{
+    display: flex;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.1);
+    border-top: 0;
+    position: absolute;
+    bottom: -22px;
+}
+.rate-update{
+    height: 15px;
+    width: 15px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #ddd;
+}
+.votes-number-update{
+    width: 55px;
+    font-family: 'Hind Madurai', sans-serif;
+    color: #545454;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.rate-update:hover {
+    background-color: #ff9600;
+}
+.rater-update:hover .votes-number-update {
+    color: #418181;
+}
+.tags{
+    display: flex;
+    margin-top: 15px;
+}
+.tag{
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+    transition: 150ms;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #ddd;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-right{
+    box-sizing: border-box;
+    width: 380px;
+    right: 140px;
+    background-color: #f7f8fc;
+    padding: 20px;
+    position: absolute;
+}
+.ads-container{
+    background-color: white;
+    width: 340px;
+    height: 220px;
+}
+.community-pools-header{
+        font-size: 18px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
+    
+}
+.what-is-pool{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-top: 1px;
+    color: #545454;
+}
+.pool-definitive{
+    
+    margin-top: 30px;
+}
+.anime-pool{
+    display: flex;
+    width: 340px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.anime-pool:hover .pool-title{
+    color: #418181;
+
+}
+.anime-pool-img{
+    height: 120px;
+    box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+    border-radius: 1px 0px 0px 1px;
+}
+.anime-pool-area{
+
+    width: 100%;
+}
+.pool-title{
+    border-right: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 5px;
+        font-size: 1.1rem;
+    font-family: 'Hind Madurai', sans-serif;
+    padding-left: 15px;
+    background-color: white;
+}
+.pool-stat{
+    display: flex;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.user-count{
+    font-size: 12px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.points-count{
+    font-size: 12px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.pool-desc{
+        font-family: 'Hind Madurai', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #545454;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.discussions-header{
+        font-size: 18px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.discussions-subheader{
+        font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    margin-top: 0px;
+    color: #545454;
+}
+.topics-container{
+    margin-top: 15px;
+}
+.topic-box{
+    border-left: 2px solid #d3d3d3;
+    padding-left: 10px;
+    display: flex;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.topic-box:hover{
+    background-color: white;
+
+}
+.comment-author{
+        font-family: 'Hind Madurai', sans-serif;
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.comment-posted{
+    font-size: 14px;
+    font-family: 'Hind Madurai', sans-serif;
+    margin-bottom: 5px;
+
+}
+.comment-rating{
+    margin-top: 25px;
+}
+.origin{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Hind Madurai', sans-serif;
+
+    text-decoration: underline;
+    font-size: 12px;
+    color: #595959;
+    width: 60px;
+}
+.comment-rate-down{
+    width: 15px;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #ddd;
+    border: 1px solid rgba(0,0,0,.2);
+}
+.comment-rate-up{
+    width: 15px;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #ddd;
+    border: 1px solid rgba(0,0,0,.2);
+
+}
+.comment-rate-up:hover{
+    background-color: #ff9600;
+}
+.comment-rate-number{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.comment-rate-down:hover{
+    background-color: #ff9600;
+}
+.new-users-header{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.new-users-container{
+    box-sizing: border-box;
+    background-color: white;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.new-user{
+    display: flex;
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+.new-user-image{
+    border-radius: 4px;
+    height: 35px;
+    width: 35px;
+    
+    border: 1px solid rgba(0,0,0,.1);
+}
+.nickname{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 2px;
+}
+.user-info{
+    display: flex;
+    
+    width: 270px;
+    margin-left: 5px;
+}
+.reg-time{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 12px;
+    color: #545454;
+    position: absolute;
+    right: 10px;
+    top:5px;
+}
+.user-points{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.user-right{
+    background-color: #f7f8fc;
+    border: 1px solid rgba(0,0,0,.1);
+    border-left: 0;
+}

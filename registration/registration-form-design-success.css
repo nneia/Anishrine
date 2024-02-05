@@ -1,0 +1,101 @@
+@import '../header/header-design.css';
+@import '../menu/menu-design.css';
+
+
+@import '../footer/footer-design.css';
+
+
+.reg-form-container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 400px;
+	background-color: #f2f2f2;
+	margin-top: 70px;
+	display: flex;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 3px #ddd;
+}
+.banner-left{
+	width: 40%;
+	height: 100%;
+	border: 1px solid #e7e1d3;
+	background-color: #324A9B;
+	box-shadow: inset 0 0px 1px
+}
+.banner-header{
+	color: white;
+	margin-left: 40px;
+	margin-top: 100px;
+	font-family: helvetica;
+	
+}
+.registration-form{
+	
+}
+.registration-header{
+
+}
+.form{
+	margin-left: 70px;
+	margin-top: 110px;
+}
+.success-icon{
+	width: 30px;
+	height: 30px;
+}
+.registration-success{
+	display: flex;
+}
+.notification{
+	font-family: helvetica;
+	font-size: 14px;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+.login-header{
+	font-family: helvetica;
+	border-bottom: 3px solid #1C3380;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+.login-container{
+	display: block;
+}
+.login-area{
+	display: block;
+}
+.username-login{
+	margin-bottom: 10px;
+	 border: 1px solid #d3d3d3;
+        box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 2px;
+    padding: 5px;
+    width: 180px;
+}
+.password-login{
+	border: 1px solid #d3d3d3;
+        box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 2px;
+    padding: 5px;
+    width: 180px;
+}
+.login-btn{
+	border: none;
+    padding: 8px;
+    margin-top: 20px;
+    background-color: #1C3380;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.login-error{
+	margin-top: 2px;
+	position: absolute;
+	color: red;
+	font-size: 12px;
+}

@@ -1,0 +1,203 @@
+@import '../header/header-design.css';
+@import '../menu/menu-design.css';
+
+
+@import '../footer/footer-design.css';
+
+
+.reg-form-container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: 500px;
+	background-color: #F7F8FC;
+	margin-top: 70px;
+	display: flex;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 3px #ddd;
+}
+.banner-left{
+	width: 40%;
+	height: 100%;
+	border: 1px solid #e7e1d3;
+	background-color: #324A9B;
+	box-shadow: inset 0 0px 1px
+}
+.banner-header{
+	color: white;
+	margin-left: 80px;
+	margin-top: 100px;
+	font-family: helvetica;
+	
+}
+.registration-form{
+	
+}
+.registration-header{
+
+}
+.form{
+	margin-left: 70px;
+	margin-top: 110px;
+}
+.username-block{
+	display: flex;
+}
+.username{
+	font-family: helvetica;
+	margin-right: 10px;
+	font-size: 16px;
+	margin-top: 3px;
+
+}
+.mail-block{
+	display: flex;
+	margin-top: 15px;
+}
+.mail{
+	font-family: helvetica;
+	margin-right: 43px;
+	font-size: 16px;
+	margin-top: 3px;
+}
+.password-block{
+	display: flex;
+	margin-top: 15px;
+}
+.password{
+	font-family: helvetica;
+	margin-right: 11px;
+	font-size: 16px;
+	margin-top: 3px;
+}
+.repeat-block{
+	display: flex;
+	margin-top: 15px;
+}
+.repeat{
+	font-family: helvetica;
+	margin-right: 30px;
+	font-size: 16px;
+	margin-top: 3px;
+}
+.btn{
+	   border: none;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #1C3380;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.input-username{
+    border: 1px solid #d3d3d3;
+        box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 120px;
+    outline: none;
+
+}
+
+.input-email{
+    border: 1px solid #d3d3d3;
+        box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 180px;
+    outline: none;
+}
+.input-error::-webkit-input-placeholder{
+	color: red;
+}
+.input-password{
+    border: 1px solid #d3d3d3;
+        box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 180px;
+    outline: none;
+}
+.input-repeat{
+    border: 1px solid #d3d3d3;
+        box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 180px;
+    outline: none;
+}
+.note{
+	color: #363636;
+	font-size: 12px;
+	font-family: helvetica;
+	margin-top: 20px;
+}
+.input-container{
+	position: relative;
+	display: flex;
+}
+.error-text{
+	position: absolute;
+	left: 150px;
+	font-size: 10px;
+	width: 300px;
+	margin-top: 5px;
+	font-family: helvetica;
+	display: none;
+}
+.error-email{
+	position: absolute;
+	left: 210px;
+	font-size: 10px;
+	width: 300px;
+	margin-top: 5px;
+	font-family: helvetica;
+	display: none;
+}
+.error-password{
+	position: absolute;
+	left: 210px;
+	font-size: 10px;
+	width: 300px;
+	margin-top: 5px;
+	font-family: helvetica;
+	display: none;
+}
+.error-repeat{
+	position: absolute;
+	left: 210px;
+	font-size: 10px;
+	width: 300px;
+	margin-top: 5px;
+	font-family: helvetica;
+	display: none;
+}
+.error-show{
+	display: block!important;
+	color: red;
+}
+.captcha{
+	margin-top: 30px;
+	margin-bottom: 0px;
+	height: 60px;
+	width: 360px;
+	background-color: white;
+}
+.success-icon{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	margin-left: 145px;
+	margin-top: 6px;
+	display: none;
+}
+.success-icon-long{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	margin-left: 205px;
+	margin-top: 6px;
+}

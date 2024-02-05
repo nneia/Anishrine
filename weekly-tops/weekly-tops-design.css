@@ -1,0 +1,22 @@
+@import '../header/header-design.css';
+@import '../menu/menu-design.css';
+@import 'weekly-highlights/weekly-highlights-design.css';
+@import 'tops/top-design.css';
+@import 'weekly-tops-r-side/weekly-r-side-design.css';
+@import '../footer/footer-design.css';
+
+
+html{
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+
+*{
+  padding: 0px;
+  margin:0px;
+}
+body{
+	width: 100%;
+}

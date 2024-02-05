@@ -1,0 +1,130 @@
+
+.welcome-container{
+	width: 1189px;
+	padding-left: 140px;
+	padding-right: 140px;
+	display: block;
+	padding-bottom: 50px;
+	background-color: #F7F8FC
+}
+.container-for-collections{
+	display: flex;
+}
+.welcome-header{
+	padding-top:40px;
+	margin-left: 5px;
+	font-family: helvetica
+}
+.collection-one{
+	height: 295px;
+	width: 425px;
+	border-radius: 5px;
+	background-color: ;
+	margin-top: 20px;
+	position: relative;
+	    box-shadow: 0 0 5px 0px rgba(0,0,0,.5);
+	cursor: pointer;
+	margin-right: 30px;
+	overflow:hidden;
+}
+.collection-two{
+	height: 295px;
+	width: 420px;
+	border-radius: 5px;
+	background-color: ;
+	margin-top: 20px;
+	position: relative;
+	    box-shadow: 0 0 5px 0px rgba(0,0,0,.5);
+	cursor: pointer;
+	margin-right: 30px;
+	overflow:hidden;
+}
+.collection-description{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	font-family: 'Hind Madurai', sans-serif;
+
+}
+.back-line{
+	background-color: grey;
+	width: 425px;
+	height: 170px;
+	position: absolute;
+	top: 130px;
+}
+.anime-posters{
+	position: relative;
+	width: 400px;
+	height: 160px;
+	padding-left: 20px;
+	padding-top: 0px;
+	display: flex;
+}
+.anime-poster{
+	border: 1px solid #e7e1d3;
+	width: 115px;
+	height: 160px;
+	margin-right: 17px;
+	position: relative;
+	z-index: 10;
+	border-radius: 1px;
+
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,.12);
+	    
+}
+.collection-one:hover .collection-description{
+	color: #418181;
+	transition: 150ms;
+
+}
+.collection-two:hover .collection-description{
+	color: #418181;
+	transition: 150ms;
+
+}
+.decription-text{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Hind Madurai light', sans-serif;
+	font-size: 14px;
+	margin-top: 5px;
+	color: #545454;
+	margin-bottom: 25px;
+}
+.collection-one:hover .decription-text{
+	color: #418181;
+	transition: 150ms;
+}
+.collection-two:hover .decription-text{
+	color: #418181;
+	transition: 150ms;
+}
+.community-posters{
+	margin-left: 20px;
+	position: relative;
+	height: 140px;
+}
+.community-poster{
+	width: 240px;
+	height: 140px;
+	position: absolute;
+	z-index: 10;
+	border-radius: 2px;
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,.12);
+}
+.pool{
+	z-index: 10;
+	position: absolute;
+	margin-left: 260px;
+	width: 100px;
+	background-color: #ddd;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	border-radius: 2px;
+	font-size: 15px;
+	font-family: 'Hind Madurai light', sans-serif;
+}
