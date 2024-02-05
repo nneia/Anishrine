@@ -1,0 +1,159 @@
+
+@import '../menu-new/menu-new-design.css';
+@import '../footer/footer-design.css';
+a{
+	text-decoration: none;
+
+}
+.margin-area{
+    height: 80px;
+    width: 100%;
+}
+.page-box{
+	width: 1189px;
+	margin-left: 165px;
+	margin-right: 165px;
+	margin-top: 70px;
+}
+.discussion-header{
+	font-family: helvetica;
+}
+.selector{
+	display: flex;
+		margin-top: 15px;
+		position: relative;
+}
+.sort-by{
+	font-family: serif;
+	font-size: 14px;
+	margin-right: 8px;
+}
+.topic-container{
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.topic-cover{
+	height: 150px;
+	
+}
+.size-adjust{
+	width: 150px;
+	height: 150px;
+	overflow:hidden;
+	box-shadow: 0 0 5px 0px rgba(0,0,0,.5);
+}
+.size-adjust:hover{
+	box-shadow: 0 0 10px 0px rgba(0,0,0,.5);
+	transition: 300ms;
+	cursor: pointer;
+}
+.topic-content{
+	width: 1024px;
+	margin-left: 15px;
+}
+.topic-title{
+	font-family: sans-serif;
+	color: #1C3380;
+	
+}
+.started-by{
+	margin-top: 5px;
+	font-size: 15px;
+	color: #939393;
+}
+.author{
+	color: #1C3380;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.topic-summary{
+	font-family: arial;
+	margin-top: 10px;
+}
+.top{
+	display: flex;
+	margin-top: 5px;
+	position: relative;
+}
+.topic-number{
+	text-align: right;
+	position: absolute;
+	right: 0;
+	margin-top: 2px;
+	font-family: helvetica;
+	font-size: 14px;
+	background-color: #f7f8fc;
+	padding: 5px;
+}
+.create{
+	position: absolute;
+	right: 0;
+	background-color: #1C3380;
+    color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.sort-list{
+
+	font-size: 13px;
+}
+.topic-info{
+	display: flex;
+	margin-top: 8px;
+}
+.likes-icon{
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-left: 5px;
+}
+.likes-number{
+	margin-right: 8px;
+	font-family: helvetica;
+	font-size: 12px;
+	color: #363636;
+	margin-top: 1px;
+	font-weight: bold;
+}
+.like{
+	background-color: #f7f8fc;
+	display: flex;
+}
+.messages-number{
+	    color: #939393;
+    font-family: helvetica;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.join{
+	    color: #939393;
+    font-family: helvetica;
+    font-size: 11px;
+    text-decoration: underline;
+    margin-top: 1px;
+	cursor: pointer;
+}
+.join-link{
+	color:#939393;
+}
+.join:hover{
+	color: #1C3380;
+	transition: 0.3s;
+}
+.topic-info{
+	display: flex;
+}
+.time{
+	    color: #939393;
+    font-family: helvetica;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 15px;
+}

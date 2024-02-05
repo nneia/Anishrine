@@ -1,0 +1,82 @@
+@import '../menu-new/menu-new-design.css';
+@import 'page-left-design.css';
+@import 'page-right-design.css';
+@import '../footer/footer-design.css';
+
+
+html{
+	margin: 0px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.margin-area{
+    height: 80px;
+    width: 100%;
+}
+.page-full{
+	width: 1239px;
+	padding-left: 140px;
+	padding-right: 140px;
+	display: flex;
+	position: relative;
+	margin-top: 410px;
+}
+.anime-background{
+	position: absolute;
+	left: 0px;
+	top:80px;
+	height: 400px;
+	width: 1519px;
+	z-index: -1;
+	color: black;
+}
+.background-fade{
+	width: 100%;
+}
+.background-fade:after{
+	position: absolute;
+	content: "";
+	height: 400px;
+	width: 100%;
+	top:80px;
+	left: 0;
+	background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.21) 0%, rgba(0, 0, 0, 0) 100%);
+background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.21) 0%, rgba(0, 0, 0, 0) 100%);
+background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.21) 0%, rgba(0, 0, 0, 0) 100%);
+background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.21) 0%, rgba(0, 0, 0, 0) 100%);
+background: linear-gradient(to top, rgba(0, 0, 0, 0.21) 0%, rgba(0, 0, 0, 0) 100%);
+
+}
+.title-block{
+	background-color: white;
+	margin-top: 290px;
+	z-index: 2;
+	width: 840px;
+	box-sizing: border-box;
+	margin-left: 120px;
+	margin-right: 140px;
+	margin-bottom: 0px;
+	padding: 20px;
+}
+.anime-title{
+	
+	font-family: 'Hind Madurai', sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+.subheader-container{
+	display: flex;
+	margin-top: 15px;
+}
+.anime-title-jpg{
+	font-family: 'Hind Madurai', sans-serif;
+    font-size: 16px;
+    color: #595959;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
+.page-left{
+	width: 800px;
+}

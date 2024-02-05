@@ -1,0 +1,49 @@
+.r-side-anime-rev{
+	margin-top: 50px;
+	display: none;
+	margin-left: 0px;
+}
+.select{
+	color: #b3000c!important;
+}
+.category{
+	color: #363636;
+	cursor: pointer;
+}
+@media (min-width: 1500px) {
+.r-side-anime-rev{
+	margin-top: 50px;
+	display: block;
+}
+.ads{
+	width: 360px;
+	height: 200px;
+	border: 1px solid #e7e1d3;
+	background-color: #d3d3d3;
+}
+.anime-rev-picture-one{
+	border: 3px solid #363636;
+}
+.nav-menu{
+	font-family: arial;
+	font-size: 17px;
+	font-weight: bold;
+	background-color: #324A9B;
+	color: white;
+	text-align: center;
+	padding: 0px;
+	margin-top: 70px;
+	width: 320px;
+	margin-left: 20px;
+}
+.nav-value{
+	border: 1px solid #e7e1d3;
+	padding: 15px;
+}
+.nav-value-glow{
+	border: 1px solid #e7e1d3;
+	padding: 15px;
+	background-color: white;
+	color: #324A9B;
+}
+}

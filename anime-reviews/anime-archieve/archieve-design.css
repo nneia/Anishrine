@@ -1,0 +1,124 @@
+.reviews-header{
+	font-family: arial;
+	margin-top: 50px;
+	margin-left: 165px;
+	margin-right: 165px;
+	text-align: center;
+}
+.reviews-menu{
+	display: flex;
+	margin-left: 165px;
+	margin-right: 165px;
+	width: 1170px;
+	background-color: #324A9B;
+	font-family: arial;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+li{
+	list-style: none;
+}
+.block-one{
+	padding-right: 10px;
+	margin-right: 0px;
+	padding-left: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-right: 2px solid white;
+}
+.block-two{
+	padding-left: 40px;
+	padding-right: 20px;
+	position: relative;
+	height: 30px;
+	padding-top: 10px;
+}
+
+.block-two-open{
+	display: none;	
+	position: absolute;
+	top:29px;
+	left: 10px;
+	background-color: #324A9B;
+}
+.block-two-open-block{
+	padding: 28px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.block-three{
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 30px;
+	padding-top: 10px;
+}
+.block-four{
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 30px;
+	padding-top: 10px;
+}
+.block-five{
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 30px;
+	padding-top: 10px;
+}
+.block-five:hover div{
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 30px;
+	padding-top: 10px;
+	display: flex;
+	position: relative;
+}
+.all-anime-container{
+	display: flex;
+	margin-left: 153px;
+}
+.anime-container{
+	display: block;
+	padding: 15px;
+
+}
+.categories{
+	background-color: #F7F8FC;
+    border: 1px solid #e7e1d3;
+    border-top: 0;
+    width: 600px;
+    height: 400px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top:-20px;
+    left: 50px;
+}
+.categories-header{
+	padding: 6px;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #324A9B;
+	color: white;
+	margin-top: 50px;
+}
+.sort-search{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	text-align: center;
+}
+.category{
+	width: 100px;
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-family: helvetica;
+	color:#363636;
+}

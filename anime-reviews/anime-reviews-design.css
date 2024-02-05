@@ -1,0 +1,39 @@
+
+@import '../../menu-new/menu-new-design.css';
+@import 'search-panel/search-design.css';
+@import '../anime-reviews/anime-list/anime-list-design.css';
+@import 'sorted-tops/sorted-top-design.css';
+@import 'anime-archieve/archieve-design.css';
+@import 'anime-reviews-r-side/anime-reviews-r-side-design.css';
+@import '../footer/footer-design.css';
+
+
+html{
+	margin: 0px;
+}
+
+.margin-area{
+    height: 80px;
+    width: 100%;
+}
+a{
+	text-decoration: none;
+}
+*{
+  padding: 0px;
+  margin:0px;
+}
+body{
+	width: 100%;
+}
+.sides{
+	display: flex;
+}
+.left{
+	width: 760px;
+	margin-left: 165px;
+}
+.right{
+	width: 360px;
+	margin-left: 50px;
+}

@@ -1,0 +1,98 @@
+.head{
+	width: 1519px;
+	
+
+	display: flex;
+	background-color: #f7f8fc;
+	box-sizing: border-box;
+	padding-left: 140px;
+	padding-right: 140px;
+    height:45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e7e1d3;
+}
+.community-banner{
+	    margin-left: 0px;
+    width: 1189px;
+    margin-top: 0px;
+    display: flex;
+
+}
+.up-menu{
+	
+	
+	width: 179px;
+	margin-right: 30px;
+	display: flex;
+}
+.sort-button{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #595959;
+	margin-top: 6px;
+}
+.sort-option{
+	    margin-left: 10px;
+    outline: none;
+    padding-left: 6px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    color: #595959;
+    background-color: white;
+    border-radius: 3px;
+    height: 20px;
+    margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+.up-feed{
+
+	display: flex;
+	justify-content: center;
+	width: 754px;
+	margin-right: 30px;
+}
+.post-something-button{
+	height: 25px;
+}
+
+
+
+
+
+
+
+.up-recomendations{
+	display: flex;
+	width: 360px;
+
+}
+.settings-icon{
+	width: 14px;
+	height: 14px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.settings-button{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 5px;
+	color: #595959;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.settings-button:hover{
+	color: #ff9600;
+	transition: 150ms;
+}

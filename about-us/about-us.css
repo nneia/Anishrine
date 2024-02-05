@@ -1,0 +1,25 @@
+
+@import '../menu-new/menu-new-design.css';
+@import '../about-us/about/about-design.css';
+@import '../footer/footer-design.css';
+
+
+html{
+	margin: 0px;
+}
+
+.margin-area{
+    height: 80px;
+    width: 100%;
+}
+
+*{
+  padding: 0px;
+  margin:0px;
+}
+body{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}

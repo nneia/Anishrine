@@ -1,0 +1,179 @@
+.container-right{
+	box-sizing: border-box;
+    width: 380px;
+    right: 140px;
+    background-color: #f7f8fc;
+    padding: 20px;
+    position: absolute;
+    margin-top: 30px;
+}
+.container-right-2{
+	box-sizing: border-box;
+    width: 380px;
+    right: 140px;
+    background-color: #f7f8fc;
+    padding: 20px;
+    position: absolute;
+    margin-top: 320px;
+}
+.container-right-3{
+	box-sizing: border-box;
+    width: 380px;
+    right: 140px;
+    background-color: #f7f8fc;
+    padding: 20px;
+    position: absolute;
+    margin-top: 850px;
+}
+.community-box{
+	display: flex;
+	background-color: white;
+	margin-top: 10px;
+	box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+	box-sizing: border-box;
+	padding: 10px;
+	position: relative;
+	flex-wrap: wrap;
+}
+.community-cover{
+	width: 50px;
+	height: 50px;
+	
+	border-radius: 2px;
+}
+.community-title{
+	font-family: 'Hind Madurai', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+	padding: 5px;
+	padding-left: 10px;
+}
+.visit-button{
+	font-family: 'Hind Madurai', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #ff9600;
+    color: white;
+    box-sizing: border-box;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    border-radius: 2px;
+    bottom: 10px;
+    left: 70px;
+    cursor: pointer;
+}
+.followers-box{
+	display: flex;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+.followers-icon{
+	background-color: black;
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	margin-top: 1px;
+	border-radius: 2px;
+}
+.followers-number{
+	font-family: 'Hind Madurai', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+.container-right-4{
+	box-sizing: border-box;
+    width: 380px;
+    right: 140px;
+    background-color: #f7f8fc;
+    padding: 20px;
+    position: absolute;
+    margin-top: 1200px;
+}
+.ad{
+	    background-color: white;
+    width: 340px;
+    height: 220px;
+}
+.next-anime{
+	margin-top: 0px;
+	overflow: hidden;
+	position: relative;
+	background-color: #ddd;
+	padding: 20px;
+	padding-left: 15px;
+	padding-top: 200px;
+	margin-top: 20px;
+	box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+
+}
+.white-space{
+	background-color: white;
+	width: 340px;
+	height: 170px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.next-header{
+	    font-size: 18px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
+    
+}
+.community-header{
+	    font-size: 18px;
+	    margin-bottom: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
+    
+}
+.next-anime-box{
+	display: flex;
+	position: relative;
+}
+.next-anime-cover{
+	width: 120px;
+	padding: 15px;
+	background-color: white;
+	padding-bottom: 0;
+}
+.next-anime-info{
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-top: 15px;
+	background-color: white;
+}
+.next-anime-title{
+	font-size: 18px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
+    
+}
+.next-anime-author{
+	font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    color: #545454;
+}
+.next-status{
+	    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.watch-button{
+	    font-size: 14px;
+    font-family: 'Hind Madurai', sans-serif;
+    position: absolute;
+    bottom: 0px;
+    right: 85px;
+    background-color: #ff9600;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+}

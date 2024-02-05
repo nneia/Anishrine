@@ -1,0 +1,114 @@
+.search-panel{
+	margin-left: 0px;
+	margin-top: 30px;
+	display: flex;
+}
+.search-input{
+	padding: 10px;
+	border-top: 4px solid #363636;
+	border-bottom: 4px solid #363636;
+	border-right: none;
+	border-left: none;
+	font-family: verdana;
+	font-style: italic;
+	width:60%;
+}
+.search-button{
+	background-color: #363636;
+	border:3px solid #363636;
+	padding: 5px;
+	color: white;
+	font-family: helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	width: 20%;
+}
+@media (min-width: 600px) {
+.search-panel{
+	margin-left: 25px;
+	margin-right: 20px;
+	margin-top: 50px;
+	display: flex;
+}
+.search-input{
+	padding: 10px;
+	border-top: 4px solid #363636;
+	border-bottom: 4px solid #363636;
+	border-right: none;
+	border-left: none;
+	font-family: verdana;
+	font-style: italic;
+	width:520px;
+}
+.search-button{
+	background-color: #363636;
+	border:3px solid #363636;
+	padding: 5px;
+	color: white;
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	width: 100px;
+}
+}
+@media (min-width: 1024px) {
+.search-panel{
+	margin-left: 110px;
+	margin-right: 20px;
+	margin-top: 50px;
+	display: flex;
+}
+.search-input{
+	padding: 10px;
+	border-top: 4px solid #363636;
+	border-bottom: 4px solid #363636;
+	border-right: none;
+	border-left: none;
+	font-family: verdana;
+	font-style: italic;
+	width:550px;
+}
+.search-button{
+	background-color: #363636;
+	border:3px solid #363636;
+	padding: 5px;
+	color: white;
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	width: 122px;
+}
+}
+@media (min-width: 1500px) {
+.search-panel{
+	margin-left: 0px;
+	margin-top: 50px;
+	display: flex;
+}
+.search-input{
+	padding: 10px;
+	border: 1px solid #363636;
+	border-right: none;
+	padding-left: 15px;
+	font-family: verdana;
+	font-weight: normal;
+	font-style: italic;
+	width:680px;
+	height: 35px;
+	color: #363636;
+}
+.search-button{
+	background-color: #1C3380;
+	border:1px solid #1C3380;
+	padding: 5px;
+	color: white;
+	font-family: helvetica;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0px;
+	width: 80px;
+}
+}

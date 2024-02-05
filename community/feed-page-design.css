@@ -1,0 +1,541 @@
+@import '../menu-new/menu-new-design.css';
+@import 'feed-page-design.css';
+.margin-area{
+    height: 80px;
+    width: 100%;
+}
+.background-shade{
+	background-color: #595959;
+	box-sizing: border-box;
+	padding-left: 100px;
+	padding-right: 100px;
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
+	
+}
+.feed-container{
+	box-sizing: border-box;
+	width: 100%;
+	
+	background-color: #d3d3d3;
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 30px;
+}
+.feed-left{
+	box-sizing: border-box;
+	width: 900px;
+	background-color: white;
+
+	box-shadow: 0 0 2px 0px rgba(0,0,0,.4);
+	padding: 40px;
+	padding-top: 20px;
+	padding-bottom: 35px;
+	position: relative;
+}
+
+
+
+.tags{
+	display: flex;
+}
+.pool-origin{
+	font-family: 'Hind Madurai', sans-serif;
+    font-size: 13px;
+    padding: 2px;
+    background-color: #418181;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    margin-top: 0px;
+    border-radius: 0px;
+    height: 15px;
+    font-weight: bold;
+
+
+}
+.posted-by{
+	font-family: 'Hind Madurai', sans-serif;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+.tag{
+	font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    padding: 2px;
+    background-color: #ff9600;
+    color: white;
+    border-radius: 2px;
+	
+   
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 40px;
+    margin-top: 10px;
+}
+.post-header{
+	padding-top: 15px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 20px;
+	
+	background-color: white;
+}
+.post-img-box {
+	text-align: center;
+	max-height: 780px;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+.post-image{
+	height: 600px;
+	display: inline-block;
+}
+
+.interactions{
+	display: flex;
+	
+}
+
+.comment-icon{
+	height: 20px;
+}
+.comment{
+	display: flex;
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 2px;
+	transition: 150ms;
+	cursor: pointer;
+	margin-left: 0px;
+	width: 115px;
+
+}
+.comment:hover{
+	background-color: #ddd
+}
+.comment-text{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 14px;
+	padding-left: 2px;
+}
+.comments-number{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 14px;
+	padding-left: 5px;
+}
+.save{
+	display: flex;
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 15px;
+	border-radius: 2px;
+	transition: 150ms;
+	cursor: pointer;
+	margin-left: 10px;
+	top: 17px
+}
+.septum{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 12px;
+	margin-left: 10px;
+	padding-top: 1px;
+}
+.time{
+ 	font-family: 'Hind Madurai', sans-serif;
+	font-size: 12px;
+	margin-left: 10px;
+	padding-top: 2px;
+}
+.author-underline{
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+}
+.author-underline:hover{
+	text-decoration: underline;
+	
+}
+.save:hover{
+	background-color: #ddd
+}
+.save-text{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 14px;
+	padding-left: 0px;
+}
+.rate{
+	display: flex;
+	position: absolute;
+	right: 0;
+	
+	border: 1px solid rgba(0,0,0,.1);
+}
+.rate-down{
+	width: 20px;
+	height: 20px;
+
+	padding: 8px;
+	right: 105px;
+	bottom: 0;
+	cursor: pointer;
+	background-color: white;
+}
+.rate-up{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	padding: 8px;
+	right: 20px;
+	bottom: 0;
+	cursor: pointer;
+}
+.rate-number{
+
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	background-color: #418181;
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-right: 25px;
+	
+}
+.rate-down:hover{
+	background-color: #ddd;
+	transition: 150ms;
+
+}
+.rate-up:hover{
+	background-color: #ddd;
+	transition: 150ms;
+
+}
+.coments-area{
+	box-sizing: border-box;
+	width: 820px;
+	margin-top: 0px;
+	font-family: arial;
+	font-size: 14px;
+	outline: none;
+	padding: 10px;
+	padding-bottom: 40px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 2px;
+	overflow: hidden;
+}
+.coments-area:hover{
+    border: 1px solid rgb(169, 169, 169);
+    transition: 150ms;
+
+}
+.comments-container{
+	position: relative;
+}
+.spoilers-notice{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 13px;
+	font-weight: 100;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.comment-notification{
+	display: flex;
+	margin-top: 35px;
+}
+.user-comment-loged{
+	display: flex;
+	padding: 10px;
+	background-color: white;
+	border: 1px solid rgba(0,0,0,.2);
+	border-bottom: 0;
+}
+.user-image-loged{
+	height: 25px;
+	border-radius: 2px;
+}
+.user-nickname-loged{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 12px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+.spoiler-message{
+	display: flex;
+}
+.notice-icon{
+	width: 18px;
+	margin-left: 5px;
+	margin-top: 0px;
+}
+.options{
+	position: absolute;
+	width: 15px;
+	margin-left: 810px;
+	cursor: pointer;
+}
+.comment-customization-box{
+	display: flex;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	bottom: 12px;
+}
+.bold{
+	width: 14px;
+	padding: 3px;
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 2px;
+	background-color: #f7f8fc;
+	cursor: pointer;
+	margin-left: 2px;
+}
+.bold:hover{
+	background-color: #ddd;
+}
+.italic{
+	width: 14px;
+	padding: 3px;
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 2px;
+	background-color: #f7f8fc;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.italic:hover{
+	background-color: #ddd;
+}
+.spoiler{
+	display: flex;
+	margin-left: 20px;
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+	background-color: #f7f8fc
+}
+.spoiler-text{
+	padding-right: 5px;
+	font-family: 'Hind Madurai', sans-serif;
+    font-size: 12px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+.lurk{
+	height: 15px;
+	padding-top: 2px;
+}
+.spoiler:hover{
+	background-color: #ddd;
+}
+.comment-area-box{
+	position: relative;
+	margin-bottom: 30px;
+}
+.sort-comments-box{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.sort-comment{
+	font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+.select-comment{
+	margin-left: 10px;
+	outline: none;
+    padding-left: 6px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: helvetica;
+    font-size: 13px;
+    color: #393939;
+    background-color: white;
+    border-radius: 3px;
+}
+.comment-box{
+	border-left: 2px solid #d3d3d3;
+	padding-left: 10px;
+	display: flex;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+.comment-author{
+	    font-family: 'Hind Madurai', sans-serif;
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.comment-posted{
+	font-size: 17px;
+	font-family: 'Hind Madurai', sans-serif;
+	margin-bottom: 5px;
+
+}
+.comment-rate-down{
+	width: 15px;
+	padding: 3px;
+	cursor: pointer;
+	border-radius: 2px;
+	background-color: #f7f8fc;
+	border: 1px solid rgba(0,0,0,.2);
+}
+.comment-rate-up{
+	width: 15px;
+	padding: 3px;
+	cursor: pointer;
+	border-radius: 2px;
+	background-color: #f7f8fc;
+	border: 1px solid rgba(0,0,0,.2);
+
+}
+.comment-rate-number{
+	    font-family: 'Hind Madurai', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.comment-operations{
+	display: flex;
+}
+.comment-reply{
+	    font-family: 'Hind Madurai', sans-serif;
+    font-size: 12px;
+
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: #f7f8fc;
+    cursor: pointer;
+    color: #595959;
+}
+.comment-report{
+	    font-family: 'Hind Madurai', sans-serif;
+    font-size: 12px;
+	margin-left: 15px;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: #f7f8fc;
+    cursor: pointer;
+    color: #595959;
+}
+.comment-rating{
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.feed-right{
+	width: 310px;
+	margin-left: 30px;
+	
+}
+.next-post-box{
+	box-sizing: border-box;
+	width: 310px;
+	background-color: white;
+	border-radius: 2px;
+	padding: 10px;
+	
+	margin-bottom: 15px;
+}
+.pool-title-next{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.post-title-next{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.hide-text{
+	font-family: 'Hind Madurai', sans-serif;
+	margin-bottom: 5px;
+}
+.preview-post-image{
+	width: 290px;
+}
+.next-post-stats-box{
+	display: flex;
+	margin-top: 10px;
+}
+.next-post-comments{
+	display: flex;
+}
+.next-comment-icon{
+	height: 14px;
+}
+.next-comments-number{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 11px;
+	padding-left: 3px;
+	font-weight: bold;
+	padding-top: 1px;
+}
+.next-comment-text{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 11px;
+	padding-left: 2px;
+	font-weight: bold;
+	padding-top: 1px;
+}
+.next-rating-box{
+	display: flex;
+	margin-left: 135px;
+}
+.next-rate-down{
+	width: 12px;
+}
+.next-rate-up{
+	width: 12px;
+}
+.next-rate-number{
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+

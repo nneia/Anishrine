@@ -1,0 +1,283 @@
+.latest-reviews-container{
+	margin-left: 0px;
+	width: 94%;
+	margin-right: 0px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	background-color: #F7F8FC;
+	border: 2px solid #f2f2f2;
+	padding: 10px;
+}
+.latest-reviews-header{
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+}
+.container-latest-reviews{
+	display: flex;
+	margin-top: 20px;
+	background-color: #363636;
+	border-radius: 3px;
+}
+.latest-reviews-img{
+	width: 100px;
+	height: 70px;
+	border-radius: 0px;
+}
+.anime-latest-title{
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 5px;
+	padding-bottom: 5px;
+	color: #fdcb5c
+}
+
+.latest-reviews-text{
+	margin-left: 0px;
+}
+
+.text-space{
+	display: flex;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 9px;
+}
+.english{
+	font-family: verdana;
+	color: white;
+}
+.episodes{
+	font-family: verdana;
+	color: white;
+}
+.english-text{
+	font-family: verdana;
+	color:#F2F2F2;
+}
+.episodes-text{
+	font-family: verdana;
+	color:#F2F2F2;
+}
+@media (min-width: 600px) {
+.latest-reviews-container{
+	margin-left: 25px;
+	width: 88.5%;
+	margin-right: 20px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	background-color: #F7F8FC;
+	border: 2px solid #f2f2f2;
+	padding: 20px;
+}
+.latest-reviews-header{
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+.container-latest-reviews{
+	display: flex;
+	margin-top: 20px;
+	background-color: #363636;
+	border-radius: 3px;
+}
+.latest-reviews-img{
+	width: 130px;
+	height: 90px;
+	border-radius: 3px;
+}
+.anime-latest-title{
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px;
+	padding-bottom: 5px;
+	color: #fdcb5c
+}
+
+.latest-reviews-text{
+	margin-left: 0px;
+}
+
+.text-space{
+	display: flex;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.english{
+	font-family: verdana;
+	color: white;
+}
+.episodes{
+	font-family: verdana;
+	color: white;
+}
+.english-text{
+	font-family: verdana;
+	color:#F2F2F2;
+}
+.episodes-text{
+	font-family: verdana;
+	color:#F2F2F2;
+}
+}
+@media (min-width: 1024px) {
+.latest-reviews-container{
+	margin-left: 110px;
+	width: 750px;
+	margin-right: 20px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	background-color: #F7F8FC;
+	border: 2px solid #f2f2f2;
+	padding: 20px;
+}
+.latest-reviews-header{
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+.container-latest-reviews{
+	display: flex;
+	margin-top: 20px;
+	background-color: #363636;
+	border-radius: 3px;
+}
+.latest-reviews-img{
+	width: 130px;
+	height: 90px;
+	border-radius: 3px;
+}
+.anime-latest-title{
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px;
+	padding-bottom: 5px;
+	color: #fdcb5c
+}
+
+.latest-reviews-text{
+	margin-left: 0px;
+}
+
+.text-space{
+	display: flex;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.english{
+	font-family: verdana;
+	color: white;
+}
+.episodes{
+	font-family: verdana;
+	color: white;
+}
+.english-text{
+	font-family: verdana;
+	color:#F2F2F2;
+}
+.episodes-text{
+	font-family: verdana;
+	color:#F2F2F2;
+}
+}
+
+@media (min-width: 1500px) {
+.latest-reviews-container{
+	margin-left: 0px;
+	width: 800px;
+	margin-right: 0px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	background-color: white;
+	border: 0px solid #e7e1d3;
+	padding: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0;
+	display:flex;
+	flex-wrap: wrap;
+}
+.latest-reviews-header-new{
+	font-family: arial;
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 50px;
+	width: 760px;
+}
+.container-latest-reviews{
+	display: block;
+	margin-top: 20px;
+	background-color: white;
+	border-radius: 3px;
+	padding-right: 60px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	width: 140px;
+}
+.picture-size-anime-list{
+	width: 200px;
+	height: 150px;
+}
+.link{
+	width: 200px;
+	height: 150px;
+}
+.anime-cover-size{
+	padding: 0;
+	width: 140px;
+}
+.latest-reviews-img{
+	width: 140px;
+	height: 200px;
+	border-radius: 0px;
+}
+.anime-latest-title{
+	color: #363636;
+    margin-left: 0px;
+    margin-right: 0;
+    padding-top: 0px;
+    padding: 0;
+    padding-top: 5px;
+    font-weight: normal;
+    font-family: SF UI Display Medium;
+    font-style: normal;
+    font-size: 15px;
+    width: 140px;
+}
+
+.latest-reviews-text{
+	margin-left: 0px;
+}
+
+.text-space{
+	font-size: 17px;
+	display: flex;
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+.english{
+	font-family: verdana;
+	color: white;
+}
+.episodes{
+	font-family: verdana;
+	color: white;
+}
+.english-text{
+	font-family: verdana;
+	color:#F2F2F2;
+}
+.episodes-text{
+	font-family: verdana;
+	color:#F2F2F2;
+}
+}
